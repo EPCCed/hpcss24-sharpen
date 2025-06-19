@@ -10,7 +10,7 @@
 #SBATCH --cpus-per-task=40
 ##SBATCH --qos=gpu
 #SBATCH --qos=reservation
-#SBATCH --reservation=m24oc_1369492
+#SBATCH --reservation=tc069_1525356
 
 # Load the default environments
 module --silent load intel-20.4/compilers
